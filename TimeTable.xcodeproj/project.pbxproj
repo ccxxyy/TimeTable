@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F285EFBB148591E000E3B344 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F285EFBA148591E000E3B344 /* UIKit.framework */; };
+		F285EFBD148591E000E3B344 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F285EFBC148591E000E3B344 /* Foundation.framework */; };
+		F285EFBF148591E000E3B344 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F285EFBE148591E000E3B344 /* CoreGraphics.framework */; };
+		F285EFC5148591E000E3B344 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F285EFC3148591E000E3B344 /* InfoPlist.strings */; };
+		F285EFC7148591E000E3B344 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFC6148591E000E3B344 /* main.m */; };
+		F285EFCB148591E000E3B344 /* TimeTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFCA148591E000E3B344 /* TimeTableAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F285EFB6148591E000E3B344 /* TimeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F285EFBA148591E000E3B344 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F285EFBC148591E000E3B344 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F285EFBE148591E000E3B344 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F285EFC2148591E000E3B344 /* TimeTable-Info.plist */ = {isa = PBXFileReference; path = "TimeTable-Info.plist"; sourceTree = "<group>"; };
+		F285EFC4148591E000E3B344 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F285EFC6148591E000E3B344 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F285EFC8148591E000E3B344 /* TimeTable-Prefix.pch */ = {isa = PBXFileReference; path = "TimeTable-Prefix.pch"; sourceTree = "<group>"; };
+		F285EFC9148591E000E3B344 /* TimeTableAppDelegate.h */ = {isa = PBXFileReference; path = TimeTableAppDelegate.h; sourceTree = "<group>"; };
+		F285EFCA148591E000E3B344 /* TimeTableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTableAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F285EFB3148591E000E3B344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F285EFBB148591E000E3B344 /* UIKit.framework in Frameworks */,
+				F285EFBD148591E000E3B344 /* Foundation.framework in Frameworks */,
+				F285EFBF148591E000E3B344 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F285EFAB148591E000E3B344 = {
+			isa = PBXGroup;
+			children = (
+				F285EFC0148591E000E3B344 /* TimeTable */,
+				F285EFB9148591E000E3B344 /* Frameworks */,
+				F285EFB7148591E000E3B344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F285EFB7148591E000E3B344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F285EFB6148591E000E3B344 /* TimeTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F285EFB9148591E000E3B344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F285EFBA148591E000E3B344 /* UIKit.framework */,
+				F285EFBC148591E000E3B344 /* Foundation.framework */,
+				F285EFBE148591E000E3B344 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F285EFC0148591E000E3B344 /* TimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				F285EFC9148591E000E3B344 /* TimeTableAppDelegate.h */,
+				F285EFCA148591E000E3B344 /* TimeTableAppDelegate.m */,
+				F285EFC1148591E000E3B344 /* Supporting Files */,
+			);
+			path = TimeTable;
+			sourceTree = "<group>";
+		};
+		F285EFC1148591E000E3B344 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F285EFC2148591E000E3B344 /* TimeTable-Info.plist */,
+				F285EFC3148591E000E3B344 /* InfoPlist.strings */,
+				F285EFC6148591E000E3B344 /* main.m */,
+				F285EFC8148591E000E3B344 /* TimeTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F285EFB5148591E000E3B344 /* TimeTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F285EFCE148591E000E3B344 /* Build configuration list for PBXNativeTarget "TimeTable" */;
+			buildPhases = (
+				F285EFB2148591E000E3B344 /* Sources */,
+				F285EFB3148591E000E3B344 /* Frameworks */,
+				F285EFB4148591E000E3B344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeTable;
+			productName = TimeTable;
+			productReference = F285EFB6148591E000E3B344 /* TimeTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F285EFAD148591E000E3B344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F285EFB0148591E000E3B344 /* Build configuration list for PBXProject "TimeTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F285EFAB148591E000E3B344;
+			productRefGroup = F285EFB7148591E000E3B344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F285EFB5148591E000E3B344 /* TimeTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F285EFB4148591E000E3B344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F285EFC5148591E000E3B344 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F285EFB2148591E000E3B344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F285EFC7148591E000E3B344 /* main.m in Sources */,
+				F285EFCB148591E000E3B344 /* TimeTableAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F285EFC3148591E000E3B344 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F285EFC4148591E000E3B344 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F285EFCC148591E000E3B344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F285EFCD148591E000E3B344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F285EFCF148591E000E3B344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTable/TimeTable-Prefix.pch";
+				INFOPLIST_FILE = "TimeTable/TimeTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F285EFD0148591E000E3B344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTable/TimeTable-Prefix.pch";
+				INFOPLIST_FILE = "TimeTable/TimeTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F285EFB0148591E000E3B344 /* Build configuration list for PBXProject "TimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F285EFCC148591E000E3B344 /* Debug */,
+				F285EFCD148591E000E3B344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F285EFCE148591E000E3B344 /* Build configuration list for PBXNativeTarget "TimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F285EFCF148591E000E3B344 /* Debug */,
+				F285EFD0148591E000E3B344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F285EFAD148591E000E3B344 /* Project object */;
+}
