@@ -13,6 +13,29 @@
 		F285EFC5148591E000E3B344 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F285EFC3148591E000E3B344 /* InfoPlist.strings */; };
 		F285EFC7148591E000E3B344 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFC6148591E000E3B344 /* main.m */; };
 		F285EFCB148591E000E3B344 /* TimeTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFCA148591E000E3B344 /* TimeTableAppDelegate.m */; };
+		F285EFD41485926B00E3B344 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFD21485926B00E3B344 /* WelcomeViewController.m */; };
+		F285EFD51485926B00E3B344 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F285EFD31485926B00E3B344 /* WelcomeViewController.xib */; };
+		F285EFD7148592F100E3B344 /* WelcomeBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F285EFD6148592F100E3B344 /* WelcomeBackground.png */; };
+		F285EFDE1485A47500E3B344 /* DailyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFDD1485A47500E3B344 /* DailyTableViewController.m */; };
+		F285EFFA1485A4F100E3B344 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFE21485A4F100E3B344 /* NSObject+SBJson.m */; };
+		F285EFFB1485A4F100E3B344 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFE51485A4F100E3B344 /* SBJsonParser.m */; };
+		F285EFFC1485A4F100E3B344 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFE71485A4F100E3B344 /* SBJsonStreamParser.m */; };
+		F285EFFD1485A4F100E3B344 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFE91485A4F100E3B344 /* SBJsonStreamParserAccumulator.m */; };
+		F285EFFE1485A4F100E3B344 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFEB1485A4F100E3B344 /* SBJsonStreamParserAdapter.m */; };
+		F285EFFF1485A4F100E3B344 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFED1485A4F100E3B344 /* SBJsonStreamParserState.m */; };
+		F285F0001485A4F100E3B344 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFEF1485A4F100E3B344 /* SBJsonStreamWriter.m */; };
+		F285F0011485A4F100E3B344 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFF11485A4F100E3B344 /* SBJsonStreamWriterAccumulator.m */; };
+		F285F0021485A4F100E3B344 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFF31485A4F100E3B344 /* SBJsonStreamWriterState.m */; };
+		F285F0031485A4F100E3B344 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFF51485A4F100E3B344 /* SBJsonTokeniser.m */; };
+		F285F0041485A4F100E3B344 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFF71485A4F100E3B344 /* SBJsonUTF8Stream.m */; };
+		F285F0051485A4F100E3B344 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F285EFF91485A4F100E3B344 /* SBJsonWriter.m */; };
+		F2FA2FF41486FEFE00575019 /* myDailyTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2FA2FF31486FEFE00575019 /* myDailyTableCell.xib */; };
+		F2FA2FF71487139600575019 /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FA2FF61487139600575019 /* 96-book.png */; };
+		F2FA2FF91487139E00575019 /* 174-imac.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FA2FF81487139E00575019 /* 174-imac.png */; };
+		F2FA2FFB148713A700575019 /* 137-presentation.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FA2FFA148713A700575019 /* 137-presentation.png */; };
+		F2FA2FFF1487A73300575019 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA2FFD1487A73300575019 /* DetailViewController.m */; };
+		F2FA30001487A73300575019 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2FA2FFE1487A73300575019 /* DetailViewController.xib */; };
+		F2FA30081487C35300575019 /* CustomiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA30071487C35300575019 /* CustomiseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +43,53 @@
 		F285EFBA148591E000E3B344 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F285EFBC148591E000E3B344 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F285EFBE148591E000E3B344 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F285EFC2148591E000E3B344 /* TimeTable-Info.plist */ = {isa = PBXFileReference; path = "TimeTable-Info.plist"; sourceTree = "<group>"; };
+		F285EFC2148591E000E3B344 /* TimeTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeTable-Info.plist"; sourceTree = "<group>"; };
 		F285EFC4148591E000E3B344 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F285EFC6148591E000E3B344 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F285EFC8148591E000E3B344 /* TimeTable-Prefix.pch */ = {isa = PBXFileReference; path = "TimeTable-Prefix.pch"; sourceTree = "<group>"; };
-		F285EFC9148591E000E3B344 /* TimeTableAppDelegate.h */ = {isa = PBXFileReference; path = TimeTableAppDelegate.h; sourceTree = "<group>"; };
+		F285EFC8148591E000E3B344 /* TimeTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeTable-Prefix.pch"; sourceTree = "<group>"; };
+		F285EFC9148591E000E3B344 /* TimeTableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeTableAppDelegate.h; sourceTree = "<group>"; };
 		F285EFCA148591E000E3B344 /* TimeTableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTableAppDelegate.m; sourceTree = "<group>"; };
+		F285EFD11485926B00E3B344 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		F285EFD21485926B00E3B344 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		F285EFD31485926B00E3B344 /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		F285EFD6148592F100E3B344 /* WelcomeBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WelcomeBackground.png; sourceTree = "<group>"; };
+		F285EFDC1485A47500E3B344 /* DailyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyTableViewController.h; sourceTree = "<group>"; };
+		F285EFDD1485A47500E3B344 /* DailyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyTableViewController.m; sourceTree = "<group>"; };
+		F285EFE01485A4F100E3B344 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		F285EFE11485A4F100E3B344 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		F285EFE21485A4F100E3B344 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		F285EFE31485A4F100E3B344 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		F285EFE41485A4F100E3B344 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		F285EFE51485A4F100E3B344 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		F285EFE61485A4F100E3B344 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		F285EFE71485A4F100E3B344 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		F285EFE81485A4F100E3B344 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		F285EFE91485A4F100E3B344 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		F285EFEA1485A4F100E3B344 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		F285EFEB1485A4F100E3B344 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		F285EFEC1485A4F100E3B344 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		F285EFED1485A4F100E3B344 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		F285EFEE1485A4F100E3B344 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		F285EFEF1485A4F100E3B344 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		F285EFF01485A4F100E3B344 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		F285EFF11485A4F100E3B344 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		F285EFF21485A4F100E3B344 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		F285EFF31485A4F100E3B344 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		F285EFF41485A4F100E3B344 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		F285EFF51485A4F100E3B344 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		F285EFF61485A4F100E3B344 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		F285EFF71485A4F100E3B344 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		F285EFF81485A4F100E3B344 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		F285EFF91485A4F100E3B344 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		F2FA2FF31486FEFE00575019 /* myDailyTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myDailyTableCell.xib; sourceTree = "<group>"; };
+		F2FA2FF61487139600575019 /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
+		F2FA2FF81487139E00575019 /* 174-imac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "174-imac.png"; sourceTree = "<group>"; };
+		F2FA2FFA148713A700575019 /* 137-presentation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "137-presentation.png"; sourceTree = "<group>"; };
+		F2FA2FFC1487A73300575019 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F2FA2FFD1487A73300575019 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F2FA2FFE1487A73300575019 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		F2FA30061487C35300575019 /* CustomiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomiseViewController.h; sourceTree = "<group>"; };
+		F2FA30071487C35300575019 /* CustomiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomiseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +109,7 @@
 		F285EFAB148591E000E3B344 = {
 			isa = PBXGroup;
 			children = (
+				F285EFDF1485A4F100E3B344 /* SBJSON */,
 				F285EFC0148591E000E3B344 /* TimeTable */,
 				F285EFB9148591E000E3B344 /* Frameworks */,
 				F285EFB7148591E000E3B344 /* Products */,
@@ -74,6 +139,17 @@
 			children = (
 				F285EFC9148591E000E3B344 /* TimeTableAppDelegate.h */,
 				F285EFCA148591E000E3B344 /* TimeTableAppDelegate.m */,
+				F285EFD11485926B00E3B344 /* WelcomeViewController.h */,
+				F285EFD21485926B00E3B344 /* WelcomeViewController.m */,
+				F285EFD31485926B00E3B344 /* WelcomeViewController.xib */,
+				F285EFDC1485A47500E3B344 /* DailyTableViewController.h */,
+				F285EFDD1485A47500E3B344 /* DailyTableViewController.m */,
+				F2FA2FF31486FEFE00575019 /* myDailyTableCell.xib */,
+				F2FA2FFC1487A73300575019 /* DetailViewController.h */,
+				F2FA2FFD1487A73300575019 /* DetailViewController.m */,
+				F2FA2FFE1487A73300575019 /* DetailViewController.xib */,
+				F2FA30061487C35300575019 /* CustomiseViewController.h */,
+				F2FA30071487C35300575019 /* CustomiseViewController.m */,
 				F285EFC1148591E000E3B344 /* Supporting Files */,
 			);
 			path = TimeTable;
@@ -82,12 +158,49 @@
 		F285EFC1148591E000E3B344 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F285EFD6148592F100E3B344 /* WelcomeBackground.png */,
+				F2FA2FF61487139600575019 /* 96-book.png */,
+				F2FA2FF81487139E00575019 /* 174-imac.png */,
+				F2FA2FFA148713A700575019 /* 137-presentation.png */,
 				F285EFC2148591E000E3B344 /* TimeTable-Info.plist */,
 				F285EFC3148591E000E3B344 /* InfoPlist.strings */,
 				F285EFC6148591E000E3B344 /* main.m */,
 				F285EFC8148591E000E3B344 /* TimeTable-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F285EFDF1485A4F100E3B344 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				F285EFE01485A4F100E3B344 /* JSON.h */,
+				F285EFE11485A4F100E3B344 /* NSObject+SBJson.h */,
+				F285EFE21485A4F100E3B344 /* NSObject+SBJson.m */,
+				F285EFE31485A4F100E3B344 /* SBJson.h */,
+				F285EFE41485A4F100E3B344 /* SBJsonParser.h */,
+				F285EFE51485A4F100E3B344 /* SBJsonParser.m */,
+				F285EFE61485A4F100E3B344 /* SBJsonStreamParser.h */,
+				F285EFE71485A4F100E3B344 /* SBJsonStreamParser.m */,
+				F285EFE81485A4F100E3B344 /* SBJsonStreamParserAccumulator.h */,
+				F285EFE91485A4F100E3B344 /* SBJsonStreamParserAccumulator.m */,
+				F285EFEA1485A4F100E3B344 /* SBJsonStreamParserAdapter.h */,
+				F285EFEB1485A4F100E3B344 /* SBJsonStreamParserAdapter.m */,
+				F285EFEC1485A4F100E3B344 /* SBJsonStreamParserState.h */,
+				F285EFED1485A4F100E3B344 /* SBJsonStreamParserState.m */,
+				F285EFEE1485A4F100E3B344 /* SBJsonStreamWriter.h */,
+				F285EFEF1485A4F100E3B344 /* SBJsonStreamWriter.m */,
+				F285EFF01485A4F100E3B344 /* SBJsonStreamWriterAccumulator.h */,
+				F285EFF11485A4F100E3B344 /* SBJsonStreamWriterAccumulator.m */,
+				F285EFF21485A4F100E3B344 /* SBJsonStreamWriterState.h */,
+				F285EFF31485A4F100E3B344 /* SBJsonStreamWriterState.m */,
+				F285EFF41485A4F100E3B344 /* SBJsonTokeniser.h */,
+				F285EFF51485A4F100E3B344 /* SBJsonTokeniser.m */,
+				F285EFF61485A4F100E3B344 /* SBJsonUTF8Stream.h */,
+				F285EFF71485A4F100E3B344 /* SBJsonUTF8Stream.m */,
+				F285EFF81485A4F100E3B344 /* SBJsonWriter.h */,
+				F285EFF91485A4F100E3B344 /* SBJsonWriter.m */,
+			);
+			path = SBJSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +254,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F285EFC5148591E000E3B344 /* InfoPlist.strings in Resources */,
+				F285EFD51485926B00E3B344 /* WelcomeViewController.xib in Resources */,
+				F285EFD7148592F100E3B344 /* WelcomeBackground.png in Resources */,
+				F2FA2FF41486FEFE00575019 /* myDailyTableCell.xib in Resources */,
+				F2FA2FF71487139600575019 /* 96-book.png in Resources */,
+				F2FA2FF91487139E00575019 /* 174-imac.png in Resources */,
+				F2FA2FFB148713A700575019 /* 137-presentation.png in Resources */,
+				F2FA30001487A73300575019 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +273,22 @@
 			files = (
 				F285EFC7148591E000E3B344 /* main.m in Sources */,
 				F285EFCB148591E000E3B344 /* TimeTableAppDelegate.m in Sources */,
+				F285EFD41485926B00E3B344 /* WelcomeViewController.m in Sources */,
+				F285EFDE1485A47500E3B344 /* DailyTableViewController.m in Sources */,
+				F285EFFA1485A4F100E3B344 /* NSObject+SBJson.m in Sources */,
+				F285EFFB1485A4F100E3B344 /* SBJsonParser.m in Sources */,
+				F285EFFC1485A4F100E3B344 /* SBJsonStreamParser.m in Sources */,
+				F285EFFD1485A4F100E3B344 /* SBJsonStreamParserAccumulator.m in Sources */,
+				F285EFFE1485A4F100E3B344 /* SBJsonStreamParserAdapter.m in Sources */,
+				F285EFFF1485A4F100E3B344 /* SBJsonStreamParserState.m in Sources */,
+				F285F0001485A4F100E3B344 /* SBJsonStreamWriter.m in Sources */,
+				F285F0011485A4F100E3B344 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				F285F0021485A4F100E3B344 /* SBJsonStreamWriterState.m in Sources */,
+				F285F0031485A4F100E3B344 /* SBJsonTokeniser.m in Sources */,
+				F285F0041485A4F100E3B344 /* SBJsonUTF8Stream.m in Sources */,
+				F285F0051485A4F100E3B344 /* SBJsonWriter.m in Sources */,
+				F2FA2FFF1487A73300575019 /* DetailViewController.m in Sources */,
+				F2FA30081487C35300575019 /* CustomiseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +390,7 @@
 				F285EFD0148591E000E3B344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

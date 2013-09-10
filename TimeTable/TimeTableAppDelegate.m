@@ -7,6 +7,7 @@
 //
 
 #import "TimeTableAppDelegate.h"
+#import "WelcomeViewController.h"
 
 @implementation TimeTableAppDelegate
 
@@ -22,6 +23,20 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    
+    // =======================================================================================
+    
+    WelcomeViewController *myRootViewController = [[WelcomeViewController alloc] initWithNibName:@"WelcomeViewController" bundle:nil];
+    
+    myNavigationController = [[UINavigationController alloc] initWithRootViewController:myRootViewController];
+    
+    [myRootViewController release]; // This has been retained by the navigation controller
+    
+    
+    
+    [[self window] addSubview:[myNavigationController view]];
+    
+    // =======================================================================================
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

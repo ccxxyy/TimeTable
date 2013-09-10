@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TimeTableAppDelegate : UIResponder <UIApplicationDelegate>
+@interface TimeTableAppDelegate : UIResponder <UIApplicationDelegate> {
+    
+    // define the navigation controller
+    UINavigationController *myNavigationController;
+    
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
